@@ -7,6 +7,7 @@ export const Container = styled.div`
   height: 350px;
   margin-left: 25px;
   text-align: center;
+  z-index: 0;
 
   iframe {
     margin-left: 5px;
@@ -14,5 +15,6 @@ export const Container = styled.div`
     height: 300px;
     border: 4px solid ${colors.navy_blue};
     border-radius: 4px;
+    z-index: 0;
   }
 `

@@ -10,7 +10,6 @@ function App() {
       <StyleGlobal />
       <Header />
       <Home />
-      <MultipleItems />
       <Footer />
     </>
   )
