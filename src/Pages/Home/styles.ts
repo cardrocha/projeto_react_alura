@@ -5,7 +5,7 @@ export const ContainerHome = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  color: ${colors.text};
+  color: ${colors.white};
   position: relative;
 
   iframe {
@@ -23,8 +23,8 @@ export const Content = styled.div`
     left: 40px;
     font-size: 40px;
     padding: 8px 10px 8px 10px;
-    background-color: ${colors.blueLight};
-    color: ${colors.text};
+    background-color: ${colors.purple};
+    color: ${colors.white};
     border: none;
     border-radius: 4px;
   }

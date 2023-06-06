@@ -1,11 +1,11 @@
 import { createGlobalStyle } from 'styled-components'
 
 export const colors = {
-  background: '#000',
-  backgroundBody: '#53585D',
-  text: '#fff',
-  border: '#2A7AE4',
-  blueLight: '#4900E0'
+  black: '#000',
+  gray: '#53585D',
+  white: '#fff',
+  navy_blue: '#2A7AE4',
+  purple: '#4900E0'
 }
 
 export const StyleGlobal = createGlobalStyle`
@@ -18,6 +18,6 @@ export const StyleGlobal = createGlobalStyle`
   }
 
   body {
-    background-color: ${colors.background};
+    background-color: ${colors.black};
   }
 `
