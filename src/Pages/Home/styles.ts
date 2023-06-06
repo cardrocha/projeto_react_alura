@@ -13,6 +13,8 @@ export const ContainerHome = styled.div`
     top: 240px;
     right: 40px;
     z-index: 1;
+    border: 4px solid ${colors.navy_blue};
+    border-radius: 4px;
   }
 `
 
